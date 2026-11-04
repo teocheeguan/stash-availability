@@ -1,0 +1,301 @@
+# Stash 覆写：把以下站点的连通性检测放进首页「Availability」
+# 用法：Stash → 配置 → 覆写 → 添加本文件（脚本地址指向 GitHub 仓库 teocheeguan/stash-availability）
+tiles:
+  - name: avail-google
+    interval: 3600
+    title: 'Google'
+    content: '点击检测'
+    icon: 'g.circle.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Google|https://www.google.com/generate_204'
+  - name: avail-youtube
+    interval: 3600
+    title: 'YouTube'
+    content: '点击检测'
+    icon: 'play.rectangle.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'YouTube|https://www.youtube.com/'
+  - name: avail-github
+    interval: 3600
+    title: 'GitHub'
+    content: '点击检测'
+    icon: 'chevron.left.forwardslash.chevron.right'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'GitHub|https://github.com/'
+  - name: avail-telegram
+    interval: 3600
+    title: 'Telegram'
+    content: '点击检测'
+    icon: 'paperplane.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Telegram|https://telegram.org/'
+  - name: avail-x
+    interval: 3600
+    title: 'X / Twitter'
+    content: '点击检测'
+    icon: 'bubble.left.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'X / Twitter|https://x.com/'
+  - name: avail-facebook
+    interval: 3600
+    title: 'Facebook'
+    content: '点击检测'
+    icon: 'person.2.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Facebook|https://www.facebook.com/'
+  - name: avail-instagram
+    interval: 3600
+    title: 'Instagram'
+    content: '点击检测'
+    icon: 'camera.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Instagram|https://www.instagram.com/'
+  - name: avail-reddit
+    interval: 3600
+    title: 'Reddit'
+    content: '点击检测'
+    icon: 'text.bubble.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Reddit|https://www.reddit.com/'
+  - name: avail-wikipedia
+    interval: 3600
+    title: 'Wikipedia'
+    content: '点击检测'
+    icon: 'book.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Wikipedia|https://www.wikipedia.org/'
+  - name: avail-netflix
+    interval: 3600
+    title: 'Netflix'
+    content: '点击检测'
+    icon: 'film.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Netflix|https://www.netflix.com/'
+  - name: avail-disney
+    interval: 3600
+    title: 'Disney+'
+    content: '点击检测'
+    icon: 'sparkles.tv.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Disney+|https://www.disneyplus.com/'
+  - name: avail-prime
+    interval: 3600
+    title: 'Prime Video'
+    content: '点击检测'
+    icon: 'tv.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Prime Video|https://www.primevideo.com/'
+  - name: avail-spotify
+    interval: 3600
+    title: 'Spotify'
+    content: '点击检测'
+    icon: 'music.note'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Spotify|https://open.spotify.com/'
+  - name: avail-tiktok
+    interval: 3600
+    title: 'TikTok'
+    content: '点击检测'
+    icon: 'music.note.tv.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'TikTok|https://www.tiktok.com/'
+  - name: avail-discord
+    interval: 3600
+    title: 'Discord'
+    content: '点击检测'
+    icon: 'message.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Discord|https://discord.com/'
+  - name: avail-chatgpt
+    interval: 3600
+    title: 'ChatGPT'
+    content: '点击检测'
+    icon: 'bubbles.and.sparkles.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'ChatGPT|https://chatgpt.com/'
+  - name: avail-openai-api
+    interval: 3600
+    title: 'OpenAI API'
+    content: '点击检测'
+    icon: 'cpu.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'OpenAI API|https://api.openai.com/v1/models'
+  - name: avail-claude
+    interval: 3600
+    title: 'Claude'
+    content: '点击检测'
+    icon: 'brain.head.profile'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Claude|https://claude.ai/'
+  - name: avail-anthropic-api
+    interval: 3600
+    title: 'Anthropic API'
+    content: '点击检测'
+    icon: 'cpu'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Anthropic API|https://api.anthropic.com/'
+  - name: avail-gemini
+    interval: 3600
+    title: 'Gemini'
+    content: '点击检测'
+    icon: 'star.circle.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Gemini|https://gemini.google.com/'
+  - name: avail-perplexity
+    interval: 3600
+    title: 'Perplexity'
+    content: '点击检测'
+    icon: 'magnifyingglass.circle.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Perplexity|https://www.perplexity.ai/'
+  - name: avail-grok
+    interval: 3600
+    title: 'Grok'
+    content: '点击检测'
+    icon: 'bolt.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Grok|https://grok.com/'
+  - name: avail-copilot
+    interval: 3600
+    title: 'Copilot'
+    content: '点击检测'
+    icon: 'airplane'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Copilot|https://copilot.microsoft.com/'
+  - name: avail-huggingface
+    interval: 3600
+    title: 'Hugging Face'
+    content: '点击检测'
+    icon: 'face.smiling.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Hugging Face|https://huggingface.co/'
+  - name: avail-notion
+    interval: 3600
+    title: 'Notion'
+    content: '点击检测'
+    icon: 'doc.text.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Notion|https://www.notion.so/'
+  - name: avail-cloudflare
+    interval: 3600
+    title: 'Cloudflare'
+    content: '点击检测'
+    icon: 'cloud.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Cloudflare|https://www.cloudflare.com/cdn-cgi/trace'
+  - name: avail-bilibili
+    interval: 3600
+    title: 'Bilibili(国内对照)'
+    content: '点击检测'
+    icon: 'tv.circle.fill'
+    backgroundColor: '#5B6B7F'
+    collapsed: true
+    argument: 'Bilibili(国内对照)|https://www.bilibili.com/'
+script-providers:
+  avail-google:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-youtube:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-github:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-telegram:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-x:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-facebook:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-instagram:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-reddit:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-wikipedia:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-netflix:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-disney:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-prime:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-spotify:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-tiktok:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-discord:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-chatgpt:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-openai-api:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-claude:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-anthropic-api:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-gemini:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-perplexity:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-grok:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-copilot:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-huggingface:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-notion:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-cloudflare:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
+  avail-bilibili:
+    url: https://raw.githubusercontent.com/teocheeguan/stash-availability/main/stash-availability.js
+    interval: 86400
